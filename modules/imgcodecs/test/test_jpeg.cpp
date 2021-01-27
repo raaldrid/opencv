@@ -50,7 +50,7 @@ namespace opencv_test { namespace {
 typedef testing::TestWithParam<string> Imgcodecs_Jpeg_Exif;
 
 TEST_P(Imgcodecs_Jpeg_Exif, exif_orientation)
-{
+{//testing 123
     const string root = cvtest::TS::ptr()->get_data_path();
     const string filename = root + GetParam();
     const int colorThresholdHigh = 250;
